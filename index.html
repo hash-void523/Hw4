@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Pley Studic</title>
+</head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        html,body{
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;    
+        }
+        body {
+            background-image:url('1.png') !important;
+            background-size: cover;
+            width:100%;
+            height:100%;
+            font-family: 'Poppins', sans-serif;
+            color:#fff;
+            display:felx;
+            flex-direction:column;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 100px;
+            font-size: 26px;
+            gap: 10px;
+        }
+        .logo img{
+            height:80px;
+            display:block;
+        }
+
+        header ul {
+            list-style:none;
+            display: flex;
+            gap: 30px;
+        }
+
+        header ul li {
+            cursor: pointer;
+        }
+
+        header .button {
+            padding: 20px 50px;
+            background:#1f946d;
+            border: none;
+            border-radius: 30px;
+            font-size: 20px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+        }
+
+        .hero p {
+            font-size: 1.9em;
+            margin: 20px 0;
+        }
+
+        .hero .cta {
+            padding: 15px 30px;
+            background:#237c5e;
+            border: none;
+            border-radius: 20px;
+            color: #fff;
+            cursor: pointer;
+            font-size:24px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+            padding: 90px 90px;
+        }
+
+        .feature {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 20px;
+            width: 300px;
+        }
+
+        .feature h3 {
+            font-size: 1.9em;
+        }
+
+        .feature p {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+
+        .feature button {
+            padding: 10px 20px;
+            background: #1f946d;
+            border: none;
+            border-radius: 20px;
+            font-size: 20px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        footer {
+            margin-top: auto;
+            text-align:center;
+            padding:20px;
+            background:transparent;
+            bottom:0;
+            font-size:24px;
+
+        }
+    </style>
+<body>
+    <header>
+        <div class="logo">
+            <img src="3.png" alt="Studio Pley Studic Logo">
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <button class="button" onclick="location.href='login.html'">Get Started</button>
+
+    </header>
+
+    <section class="hero">
+        <h1>Studio Pley Studic</h1>
+        <p>Explore the possibilities of creative solutions with a touch of elegance and modernity.</p>
+        <br><br>
+        <button class="cta" onclick="location.href='about.html'">Learn More</button>
+
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>Horere Cronus</h3>
+            <p>Discover modern styles for creative expression tailored to your needs.</p>
+            <button onclick="location.href='style.html'" >Explore</button>
+        </div>
+        <div class="feature">
+            <h3>Nobe Fis</h3>
+            <p>Seamlessly blend imagination with functionality in unique designs.</p>
+            <button onclick="location.href='.designhtml'">Discover</button>
+        </div>
+        <div class="feature">
+            <h3>Uramed Plioe</h3>
+            <p>Innovative tools for elevating the standards of creativity and style.</p>
+            <button onclick="location.href='tool.html'">Get Started</button>
+        </div>
+    </section>
+</body>
+<footer>
+        &copy; 2025 Studio Pley Studic. All rights reserved.
+</footer>
+</html>
